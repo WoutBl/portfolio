@@ -1,0 +1,95 @@
+/* semantic color variables for this project */
+:root {
+  --base-color-pink-1: #ffeaea;
+  --base-color-pink-2: #ffcccc;
+  --base-color-purple-1: #8000ff;
+  --base-color-purple-2: #9a208c;
+  --base-color-purple-3: #f5c6ec;
+
+  --base-font: 'Times New Roman', sans-serif;
+  --base-font-size: 16px;
+  --base-font-weight: 400;
+  --base-line-height: 24px;
+
+  --header-font-size: 36px;
+  --header-font-weight: 700;
+  --header-line-height: 40px;
+
+  --introheader-font-size: 48px;
+  --introheader-font-weight: 800;
+  --introheader-line-height: 48px;
+
+  --nav-font-size: 20px;
+  --nav-font-weight: 700;
+  --nav-line-height: 28px;
+
+  --color-background-back: var(--base-color-pink-1);
+  --color-background-front: var(--base-color-pink-1);
+
+  --color-text-nav: var(--base-color-purple-1);
+  --color-text-intro-header: var(--base-color-purple-1);
+
+  --color-button-background: var(--base-color-purple-3);
+  --color-button-text: var(--base-color-purple-1);
+
+  --color-text-header: var(--base-color-purple-2);
+  --color-text: var(--base-color-purple-2);
+
+  --margin-background-front: {
+    margin-left: 5rem;
+    margin-right: 5rem;
+  };
+
+  --color-button: {
+    background-color: var(--color-button-background);
+    color: var(--color-button-text);
+  };
+
+  --base-text-font: {
+    font-family: var(--base-font);
+    font-size: var(--base-font-size);
+    font-weight: var(--base-font-weight);
+    line-height: var(--base-line-height);
+    color: var(--color-text);
+  };
+
+  --header-text-font: {
+    font-family: var(--base-font);
+    font-size: var(--header-font-size);
+    font-weight: var(--header-font-weight);
+    line-height: var(--header-line-height);
+    color: var(--color-text-header);
+  };
+
+  --introheader-text-font: {
+    font-family: var(--base-font);
+    font-size: var(--introheader-font-size);
+    font-weight: var(--introheader-font-weight);
+    line-height: var(--introheader-line-height);
+    color: var(--color-text-intro-header);
+  };
+
+  --nav-text-font: {
+    font-family: var(--base-font);
+    font-size: var(--nav-font-size);
+    font-weight: var(--nav-font-weight);
+    line-height: var(--nav-line-height);
+    color: var(--color-text-nav);
+  };
+
+  --section-gap: 160px;
+}
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --color-background: var(--vt-c-black);
+    --color-background-soft: var(--vt-c-black-soft);
+    --color-background-mute: var(--vt-c-black-mute);
+
+    --color-border: var(--vt-c-divider-dark-2);
+    --color-border-hover: var(--vt-c-divider-dark-1);
+
+    --color-heading: var(--vt-c-text-dark-1);
+    --color-text: var(--vt-c-text-dark-2);
+  }
+} */
