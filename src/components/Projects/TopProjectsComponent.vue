@@ -13,7 +13,7 @@
       :class="project.id % 2 === 0 ? 'md:flex-row-reverse' : 'md:flex-row'"
     >
       <a
-        class="drop-shadow-xl w-[450px]"
+        class="drop-shadow-xl md:w-[450px]"
         target="_blank"
         :href="project.external ?? project.github"
       >
@@ -24,7 +24,7 @@
         :class="project.id % 2 === 0 ? 'md:items-start' : 'md:items-end'"
       >
         <div
-          class="-m-4 w-full relative rounded-md bg-secondary-purple/10 px-6 py-4 shadow-md"
+          class="md:-m-4 w-full relative rounded-md bg-secondary-purple/10 px-6 py-4 shadow-md"
           :class="project.id % 2 === 0 ? 'md:text-left' : 'md:text-right'"
         >
           <p class="font-mono text-primary-purple">
@@ -42,8 +42,8 @@
           </h3>
 
           <div
-            class="absolute top-4 flex justify-end gap-4"
-            :class="project.id % 2 === 0 ? 'right-6' : 'left-6'"
+            class="absolute top-4 flex justify-end gap-4 right-6"
+            :class="project.id % 2 === 0 ? ' md:right-6' : 'md:left-6'"
           >
             <a
               v-if="project.github"
@@ -138,8 +138,8 @@ const projects: ITopProject[] = [
     technologies:
       'VueJS, Typescript, TailwindCSS, NestJS, Docker, GraphQL, PWA, MongoDB, Firebase, Jest, Playwright, GoogleAPI ',
     github: 'https://github.com/DeschuytterBjarni/Wout-Bjarni',
-    image: '/Projects/ShareCar.webp',
-    imageAlt: 'ShareCarProjectImage'
+    image: '/Projects/BrusselsAirport2.png',
+    imageAlt: 'FullStackProjectImage'
   },
   {
     id: 5,
@@ -151,6 +151,16 @@ const projects: ITopProject[] = [
     external: 'https://123spanje.com/',
     image: '/Projects/123Spanje.png',
     imageAlt: '123SpanjeImage'
+  },
+  {
+    id: 6,
+    category: 'Coming Soon',
+    title: 'Website Builder',
+    description:
+      'Right now I am working on a side/passion project. This project is a website builder with VueJS. The backend of this project is made with PHP. On here you will be able to create a Vue project, see what routes you have and see all the views/pages you have. You will also be able to create components, edit those components and use these components in the projects you created. In the end when your project is done you will be able to download the complete folder as a zip or download the build file as a zip.',
+    technologies: 'VueJS, Typescript, TailwindCSS, PHP, Breeze',
+    image: '/Projects/Coming soon.jpg',
+    imageAlt: 'Coming soon'
   }
 ]
 </script>

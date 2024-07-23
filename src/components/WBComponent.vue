@@ -1,10 +1,10 @@
 <template>
   <section id="WB" className="flex items-center justify-center h-screen ">
     <div className="flex flex-col items-center text-primary-purple">
-      <div className="font-regular typewriter text-6xl mb-8">
+      <div className="font-regular typewriter text-3xl md:text-6xl mb-8">
         <h1>I'm Wout Blomme</h1>
       </div>
-      <div className="font-extrabold text-5xl">A Full Stack Web Developer</div>
+      <div className="font-extrabold text-2xl md:text-5xl">A Full Stack Web Developer</div>
     </div>
   </section>
 </template>

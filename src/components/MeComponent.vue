@@ -1,7 +1,7 @@
 <template>
-  <section id="ME" className=" h-[70vh]  flex justify-around items-center">
-    <div className="z-10  ml-40 w-auto">
-      <div className="maskedImageContainer ">
+  <section id="ME" className=" md:h-[70vh]  flex flex-col md:flex-row justify-around items-center">
+    <div className="z-10  md:ml-40 w-auto">
+      <div className="w-[300px] h-[300px] rounded-xl overflow-hidden  ">
         <img
           className="maskedImage "
           src="/ME.png"
@@ -11,9 +11,11 @@
         />
       </div>
     </div>
-    <div className="flex flex-col text-secondary-purple items-start justify-center w-1/2 ">
+    <div
+      className="flex flex-col text-secondary-purple items-center mt-5 md:mt-0 md:items-start justify-center md:w-1/2 "
+    >
       <div className="mb-10 font-bold text-4xl">This is me.</div>
-      <p className="">
+      <p className="px-5  md:p-0 text-center md:text-start">
         Hi, I am from Maldegem, Belgium. I am a Full Stack Web Developer. I am currently studying at
         Howest University of Applied Sciences in Kortrijk. I am in my second year of the Bachelor
         MCT (Multimedia and Creative Technologies). I am a very motivated and ambitious person who

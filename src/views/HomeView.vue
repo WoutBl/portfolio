@@ -7,9 +7,9 @@ import FooterComponent from '@/components/FooterComponent.vue'
 </script>
 
 <template>
-  <main>
+  <main class="w-screen overflow-hidden">
     <WBComponent />
-    <div class="bg-secondary-pink h-full mx-20 rounded-3xl">
+    <div class="bg-secondary-pink h-full md:mx-20 rounded-3xl w-screen md:w-auto">
       <MeComponent />
       <ProjectsComponent />
       <ContactComponent />
